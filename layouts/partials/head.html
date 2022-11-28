@@ -2,6 +2,8 @@
 {{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}
 {{ $data := index $.Site.Data $config }}
 <head>
+  {{/*  添加umami数据统计  */}}
+  <script async defer data-website-id="08a754c4-6690-46d7-bb80-8ff93cfa232f" src="https://umami.oldwinter.top/umami.js"></script>
   <!-- Meta tags -->
   <meta charset="UTF-8" />
   <meta
@@ -50,8 +52,6 @@
   <script src="{{$s.Permalink}}"></script>
   {{end}}
   {{partial "katex.html" .}}
-
-  {{partial "mermaid.html" .}}
     
   <script src="https://unpkg.com/@floating-ui/core@0.7.3"></script>
   <script src="https://unpkg.com/@floating-ui/dom@0.5.4"></script>
@@ -81,8 +81,6 @@
   "indices/contentIndex.json" | resources.Fingerprint "md5" | resources.Minify
   }}
   <script>
-    const SEARCH_ENABLED = {{.Site.Data.config.search.enableSemanticSearch}}
-    const PRODUCTION = {{ hugo.IsProduction }}
     const BASE_URL = {{.Site.BaseURL}}
     const fetchData = Promise.all([
           fetch("{{ $linkIndex.Permalink }}")
@@ -147,19 +145,6 @@
 
         }
       {{end}}
-
-      {{if $data.enableMermaid | default $.Site.Data.config.enableMermaid}}
-        var els = document.getElementsByClassName("mermaid");
-        if (els.length > 0) {
-          import('https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs').then(
-            (obj) => {
-              // init forces mermaid to render mermaid markdown without waiting
-              // for DOMContentLoaded event
-              obj.default.init();
-            }
-          )
-        }
-      {{end}}
     }
 
     const init = (doc = document) => {
@@ -177,9 +162,6 @@
           {left: '$$', right: '$$', display: true},
           {left: '$', right: '$', display: false},
         ],
-        macros: {
-          '’': "'"
-        },
         throwOnError : false
       });
       {{end}}
