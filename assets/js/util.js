@@ -115,11 +115,9 @@ const resultToHTML = ({ url, title, content }) => {
 }
 
 const redir = (id, term) => {
-  const shouldTrim = PRODUCTION && SEARCH_ENABLED
-  const baseURLPrefix = shouldTrim ? "" : BASE_URL.replace(/\/$/g, "")
-  const urlString = `${baseURLPrefix}${id}#:~:text=${encodeURIComponent(term)}/`
+  // SPA navigation
   window.Million.navigate(
-    new URL(urlString),
+    new URL(`${BASE_URL.replace(/\/$/g, "")}${id}#:~:text=${encodeURIComponent(term)}/`),
     ".singlePage",
   )
   closeSearch()
@@ -181,7 +179,7 @@ const registerHandlers = (onInputFn) => {
   })
 }
 
-const displayResults = (term, finalResults, extractHighlight = false) => {
+const displayResults = (finalResults, extractHighlight = false) => {
   const results = document.getElementById("results-container")
   if (finalResults.length === 0) {
     results.innerHTML = `<button class="result-card">
@@ -191,16 +189,16 @@ const displayResults = (term, finalResults, extractHighlight = false) => {
   } else {
     results.innerHTML = finalResults
       .map((result) => {
-        if (extractHighlight) {
-          return resultToHTML({
-            url: result.url,
-            title: highlight(result.title, term),
-            content: highlight(removeMarkdown(result.content), term)
-          })
-        } else {
-          return resultToHTML(result)
+          if (extractHighlight) {
+            return resultToHTML({
+              url: result.url,
+              title: highlight(result.title, term),
+              content: highlight(removeMarkdown(result.content), term)
+            })
+          } else {
+            return resultToHTML(result)
+          }
         }
-      }
       )
       .join("\n")
     const anchors = [...document.getElementsByClassName("result-card")]

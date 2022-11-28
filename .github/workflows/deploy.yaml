@@ -5,14 +5,27 @@ on:
     branches:
       - hugo
 
+  workflow_dispatch:
+
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+   
+      - name: Checkout submodules
+        run: git submodule update --init --recursive
 
+      - name: config1 
+        run: rm -rf content/.obsidian content/cedict_ts.u8 content/Extras/Templates  && mv content/*.md content/Atlas && find content/ -name "*.md" | xargs -I file  mv -f file content &&  mv content/AboutTheGarden.md content/_index.md 
+      
+      - name: config2
+        run: "ls content/ && grep -lr --null 'title' content/* | xargs -0 sed -i -E -r 's/title: (.*)/title: \"\\1\"/g'"
+      
+      - name: config3 
+        run: rm -rf content/*.md-E
+
+      
       - name: Build Link Index
         uses: jackyzha0/hugo-obsidian@v2.18
         with:
@@ -21,6 +34,7 @@ jobs:
           output: assets/indices
           root: .
 
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -28,7 +42,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --debug
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -36,4 +50,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: master  # deploying branch
-          cname: quartz.jzhao.xyz
+          cname: garden.oldwinter.top

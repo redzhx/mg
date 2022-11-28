@@ -1,6 +1,6 @@
-baseURL = "https://quartz.jzhao.xyz/"
-languageCode = "en-us"
-googleAnalytics = "G-XYFD95KB4J"
+baseURL = "https://garden.oldwinter.top/"
+languageCode = "en"
+googleAnalytics = "G-11MD77L81V"
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [
@@ -28,7 +28,7 @@ enableGitInfo = true
         lineNumbersInTable = true
         style = "dracula"
     [frontmatter]
-        lastmod = ["lastmod", ":git", "date", "publishDate"]
-        publishDate = ["publishDate", "date"]
+        lastmod = ["date modified","lastmod", ":git", "date", "publishDate"]
+        publishDate = ["date created","publishDate", "date"]
     [markup.goldmark.renderer]
         unsafe = true
