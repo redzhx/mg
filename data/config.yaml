@@ -1,4 +1,4 @@
-name: Jacky Zhao
+name: snowred
 enableToc: true
 openToc: false
 enableLinkPreview: true
@@ -17,9 +17,13 @@ operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 description:
   我的第二大脑 second brain，我的数字花园 digital garden，用obsidian双链笔记软件写作而成。
 page_title:
+<<<<<<< HEAD
   "🌿 oldwinterの数字花园"
+=======
+  "🪴 Snowred's Garden"
+>>>>>>> 8fcca037d2e24c61b806d2176e682cf6ba21ed57
 links:
   - link_name: Twitter
-    link: https://twitter.com/_jzhao
+    link: https://twitter.com/
   - link_name: Github
-    link: https://github.com/jackyzha0
+    link: https://github.com/
