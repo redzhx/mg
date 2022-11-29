@@ -1,5 +1,5 @@
 baseURL = "https://redzhx.github.io/mg”
-languageCode = "en-us"
+languageCode = "zh-cn"
 googleAnalytics = ""
 relativeURLs = false
 disablePathToLower = true
