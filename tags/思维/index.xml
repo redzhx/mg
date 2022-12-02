@@ -2,4 +2,11 @@
 现在是 =date(now)
 距离第一次看《重来》已经过去了===(date(today)-this.BeginDate).days==天
 此刻有什么新[[#想法]]呢？
-这段时间里阅读的其他书籍： 1 2 3 list &amp;#34;开始阅读于 &amp;#34;+BeginDate from #book where BeginDate&amp;gt;=this.BeginDate &amp;amp; file.name!=this.file.name [[Books|查看完整书单]]</description></item></channel></rss>
+这段时间里阅读的其他书籍： 1 2 3 list &amp;#34;开始阅读于 &amp;#34;+BeginDate from #book where BeginDate&amp;gt;=this.BeginDate &amp;amp; file.name!=this.file.name [[Books|查看完整书单]]</description></item><item><title>📚改变</title><link>https://redzhx.github.io/mg/%E6%94%B9%E5%8F%98/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redzhx.github.io/mg/%E6%94%B9%E5%8F%98/</guid><description>[[(美)瓦茨拉维克(2007-11-1) 改变]]
+[status:: =choice(this.EndDate=none,&amp;quot;待读/在读&amp;quot;,&amp;quot;读完&amp;quot;)]
+2022-05-25： 书不厚， 两天在zotero读完。 但是翻译太拗口， 高高在上的学术口气。 我又犯毛病了， 想在MN里对照中英文重新翻译和整理下笔记。有点费时间。
+现在是 =date(now)
+距离第一次看《改变》已经过去了===(date(today)-this.BeginDate).days==天
+此刻有什么新[[#想法]]呢？
+这段时间里阅读的其他书籍：
+1 2 3 list &amp;#34;开始阅读于 &amp;#34;+BeginDate from #book where BeginDate&amp;gt;=this.</description></item></channel></rss>
