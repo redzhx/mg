@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>美国 on</title><link>https://redzhx.github.io/mg/tags/%E7%BE%8E%E5%9B%BD/</link><description>Recent content in 美国 on</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://redzhx.github.io/mg/tags/%E7%BE%8E%E5%9B%BD/index.xml" rel="self" type="application/rss+xml"/><item><title>重来</title><link>https://redzhx.github.io/mg/%E9%87%8D%E6%9D%A5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redzhx.github.io/mg/%E9%87%8D%E6%9D%A5/</guid><description>[status:: =choice(this.EndDate=none,&amp;quot;待读/在读&amp;quot;,&amp;quot;读完&amp;quot;)]
+现在是 =date(now)
+距离第一次看《重来》已经过去了===(date(today)-this.BeginDate).days==天
+此刻有什么新[[#想法]]呢？
+这段时间里阅读的其他书籍： 1 2 3 list &amp;#34;开始阅读于 &amp;#34;+BeginDate from #book where BeginDate&amp;gt;=this.BeginDate &amp;amp; file.name!=this.file.name [[Books|查看完整书单]]</description></item></channel></rss>
