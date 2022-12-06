@@ -3,7 +3,7 @@
 距离第一次看《奥格威谈广告》已经过去了===(date(today)-this.BeginDate).days==天
 此刻有什么新[[#想法]]呢？
 title: &amp;ldquo;这段时间里阅读的其他书籍： &amp;quot; icon: book-open
-1 2 3 list &amp;#34;开始阅读于 &amp;#34;+BeginDate from #book where BeginDate&amp;gt;=this.</description></item><item><title>重来</title><link>https://redzhx.github.io/mg/%E9%87%8D%E6%9D%A5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redzhx.github.io/mg/%E9%87%8D%E6%9D%A5/</guid><description>[status:: =choice(this.EndDate=none,&amp;quot;待读/在读&amp;quot;,&amp;quot;读完&amp;quot;)]
+1 2 3 list &amp;#34;开始阅读于 &amp;#34;+BeginDate from #book where BeginDate&amp;gt;=this.</description></item><item><title>组织</title><link>https://redzhx.github.io/mg/%E7%BB%84%E7%BB%87/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redzhx.github.io/mg/%E7%BB%84%E7%BB%87/</guid><description>简评：2001年，丹尼尔·雷恩（Daniel A. Wren）等人组织了一项调研，《组织》一书被评为二十世纪第七大最具影响力的管理书籍。 该书由詹姆斯·马奇（James G. March）与赫伯特·西蒙（Herbert A.Simon）合著，开创了组织研究中的“[[有限理性]]”流派。 ref [[理解人生模式的二十二本书]]</description></item><item><title>重来</title><link>https://redzhx.github.io/mg/%E9%87%8D%E6%9D%A5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redzhx.github.io/mg/%E9%87%8D%E6%9D%A5/</guid><description>[status:: =choice(this.EndDate=none,&amp;quot;待读/在读&amp;quot;,&amp;quot;读完&amp;quot;)]
 现在是 =date(now)
 距离第一次看《重来》已经过去了===(date(today)-this.BeginDate).days==天
 此刻有什么新[[#想法]]呢？
