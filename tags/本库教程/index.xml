@@ -28,11 +28,10 @@ publish to learn。 假装此处有观众，对自己是一种督促，我会为
 有既定目标、需要投入一段时间、围绕一个主题的学习对象，在Spaces的PARA文件夹下，建立一个专项进行投入。一个特例是：如果这个学习对象的学校材料，是非常单一的形式，例如全部是pdf文件，全部是文字，全部是视频。则将其按文件类型，放入Sources文件夹进行学习。这么做的目的是，将来搜索和回顾时，这种单一材料的学习对象，可以将学习材料类型作为一个检索方式，从而使我们很快找到对应的文件。换言之，[[奥卡姆剃刀|如非必要，勿增实体]]，学习材料单一的学习对象，大概率几天时间就能搞定，没必要将其上升到项目这个层面。就像软件开发中，有些功能点很小，甚至都可以理解为一个bug，那么就没必要将其当做feature去走特性开发的工作流了。</description></item><item><title>» 本库笔记的emoji符号记录</title><link>https://redzhx.github.io/mg/-%E6%9C%AC%E5%BA%93%E7%AC%94%E8%AE%B0%E7%9A%84emoji%E7%AC%A6%E5%8F%B7%E8%AE%B0%E5%BD%95/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redzhx.github.io/mg/-%E6%9C%AC%E5%BA%93%E7%AC%94%E8%AE%B0%E7%9A%84emoji%E7%AC%A6%E5%8F%B7%E8%AE%B0%E5%BD%95/</guid><description>为什么要给文件名引入emoji 卡片中的一些概念，用符号来标记区分个， 更直观。
 常用的通过标签tag+ [[supercharged-links]]插件实现，省去编辑的麻烦。 只是无法通过搜索文件名直接搜索，发布后在网站中也不显示。
 特殊项 [[macos系统中快捷输入各种特殊符号]]
-MOC 使用+符号作为前缀，让其在自然排序中靠在最前面，既方便搜索，也 方便在文件夹中最先被看到。
-参考OW的笔记库， 用∑符号，option+w输入。可能会被某些系统识别为保留字符而出错，比如在[[hugo]]中会出现404问题。
-TOC 使用§符号作为前缀（option+6输入，注意可能的快捷键冲突），让其在自然排序中靠在最前面，既方便搜索，也方便在文件夹中最先被看到。
+MOC 用∑符号，option+w输入，作为前缀，让其在自然排序中靠在最前面，既方便搜索，也 方便在文件夹中最先被看到。
+可能会被某些系统识别为保留字符而出错，比如在[[hugo]]中会出现404问题。 TOC 使用§符号作为前缀（option+6输入，注意可能的快捷键冲突），让其在自然排序中靠在最前面，既方便搜索，也方便在文件夹中最先被看到。
 工作流 使用»符号作为前缀，option+shift+\ 输入.
-笔记的手动编码，与标题之间不加空格 emoji 编码 含义 🤖 🤖 app、应用或脚本 ✨ 闪亮 金句 🔗 链接 网站 🔡 英文 英文缩写的方法或模型 🧑 人人 人物 🪞 镜子 值得反思的俗语 🐤 鸡 网络用语 - [[小鸡词典]] 导航部分的手动编码 [[🌲]] 父级 [[🌿]] 同级相关</description></item><item><title>本站发布指南</title><link>https://redzhx.github.io/mg/%E6%9C%AC%E7%AB%99%E5%8F%91%E5%B8%83%E6%8C%87%E5%8D%97/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redzhx.github.io/mg/%E6%9C%AC%E7%AB%99%E5%8F%91%E5%B8%83%E6%8C%87%E5%8D%97/</guid><description>本库使用的发布方案 Quartz 方案 🪴 Quartz 3.
+笔记的手动编码，与标题之间不加空格 emoji 编码 含义 🤖 🤖 app、应用或脚本 ✨ 闪亮 金句 🔗 链接 网站 🔡 英文 英文缩写的方法或模型 🧑 人人 人物 🪞 镜子 值得反思的俗语 🐤 鸡 网络用语 - [[小鸡词典]] 用[[supercharged-links]]自动生成的emoji前缀，与标题之间加空格 emoji 编码 含义 🗺 地图 MOC内容地图文件 ⏰ 闹钟 todo待办 🧠 大脑 review待记忆卡片 🎨 🎨 excalidraw图 📖 读书 weread微信读书同步的笔记 🏹 弓箭 done已发布长文 📊 表格 TOC目录表格文件 🗃 卡片盒 index索引dataview 🏠 家 home主页 📃 📃 readme说明 参考 [[macos系统中快捷输入各种特殊符号]] oldwinter的数字花园</description></item><item><title>本站发布指南</title><link>https://redzhx.github.io/mg/%E6%9C%AC%E7%AB%99%E5%8F%91%E5%B8%83%E6%8C%87%E5%8D%97/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redzhx.github.io/mg/%E6%9C%AC%E7%AB%99%E5%8F%91%E5%B8%83%E6%8C%87%E5%8D%97/</guid><description>本库使用的发布方案 Quartz 方案 🪴 Quartz 3.
 优点：
 Quartz的界面深得我心， 页面简洁， 支持双链实时预览live preview，支持搜索， 页面TOC可以根据需要开关， 支持tags，而且能显示obsidian [[callout]] 。怎奈对wikilink支持不友好。
 现有Obsidian第三方发布方案中，Quartz颜值最高，然而凡事皆有代价， Quartz也是对代码小白最不友好的方案。
