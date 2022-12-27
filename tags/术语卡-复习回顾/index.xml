@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>术语卡, 复习回顾 on</title><link>https://redzhx.github.io/mg/tags/%E6%9C%AF%E8%AF%AD%E5%8D%A1-%E5%A4%8D%E4%B9%A0%E5%9B%9E%E9%A1%BE/</link><description>Recent content in 术语卡, 复习回顾 on</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://redzhx.github.io/mg/tags/%E6%9C%AF%E8%AF%AD%E5%8D%A1-%E5%A4%8D%E4%B9%A0%E5%9B%9E%E9%A1%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>什么是群论</title><link>https://redzhx.github.io/mg/%E4%BB%80%E4%B9%88%E6%98%AF%E7%BE%A4%E8%AE%BA%E6%9E%81%E7%AE%80%E7%BE%A4%E8%AE%BA/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redzhx.github.io/mg/%E4%BB%80%E4%B9%88%E6%98%AF%E7%BE%A4%E8%AE%BA%E6%9E%81%E7%AE%80%E7%BE%A4%E8%AE%BA/</guid><description>什么是群论 群论(Group Theory)。产生于19世纪初。“群”这个词， 来自法国数学家，埃瓦里斯特·伽罗瓦(Evariste Galois)。
 伽罗瓦初步论述，随后几位杰出的19世纪数学家合力发展群论，使之成为一个最富想象力的数学理论。
 1900年后，伴随着古典物理革命，群论也开始在量子论和相对论中扮演重要的角色。
-虽然群论涵意艰深，只有数学家和物理学才明白，但是其中元素与整体之关系的基本假设,我们可以借来用来解释行为改变中的现象。
+群论涵意艰深，属于数学家和物理学家的理解范围。我们可以借鉴群论关于元素与整体关系的基本假设，用来解释行为改变中的现象。
 什么是“群”？ 群由共有某一特征的成员(members)组成。成员的实际本质不在群论讨论范围之内。
 群的成员可以是数字、物体、概念、事件，或者任何可以组合在一起的东西。只要它们有共同特征，两个或多个成员的任何组合，也是该群的成员。
 群内任何成员的组合,其结果本身仍为该群的成员。
