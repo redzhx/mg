@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>人生 on</title><link>https://redzhx.github.io/mg/tags/%E4%BA%BA%E7%94%9F/</link><description>Recent content in 人生 on</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://redzhx.github.io/mg/tags/%E4%BA%BA%E7%94%9F/index.xml" rel="self" type="application/rss+xml"/><item><title>活出生命的意义</title><link>https://redzhx.github.io/mg/%E6%B4%BB%E5%87%BA%E7%94%9F%E5%91%BD%E7%9A%84%E6%84%8F%E4%B9%89/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redzhx.github.io/mg/%E6%B4%BB%E5%87%BA%E7%94%9F%E5%91%BD%E7%9A%84%E6%84%8F%E4%B9%89/</guid><description>[[奥 维克多·弗兰克(2010-6) 活出生命的意义]]
+Originallypublished: 1946
+[status:: =choice(this.EndDate=none,&amp;quot;待读/在读&amp;quot;,&amp;quot;读完&amp;quot;)]
+现在是 =date(now)
+距离第一次看《活出生命的意义》已经过去了===(date(today)-this.BeginDate).days==天
+此刻有什么新[[#想法]]呢？
+这段时间里阅读的其他书籍：
+1 2 3 list &amp;#34;开始阅读于 &amp;#34;+BeginDate from #book where BeginDate&amp;gt;=this.</description></item></channel></rss>
